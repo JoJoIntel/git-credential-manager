@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 SIGN_DIR=$1
@@ -57,3 +58,4 @@ do
         codesign -s "$DEVELOPER_ID" "$f" --timestamp --force
     fi
 done
+
